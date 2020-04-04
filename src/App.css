@@ -1,10 +1,40 @@
 .App {
-  text-align: center;
+  padding: 20px;
+}
+div {
+  text-align: initial;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.sui-layout-header {
+  display: none;
+}
+#root {
+  padding: 1%;
+}
+.sui-search-box {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.logo {
+  margin: 0 auto;
+  display: block;
+  padding: 15px;
+  background-color: #efefef;
+}
+body {
+  background: #efefef;
+}
+
+.button.sui-search-box__submit {
+  text-transform: uppercase;
+  padding: 15px 20px;
+  letter-spacing: 0.8px;
+  font-size: 16px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
